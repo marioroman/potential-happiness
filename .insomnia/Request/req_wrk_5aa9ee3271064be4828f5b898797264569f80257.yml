@@ -1,0 +1,30 @@
+_id: req_wrk_5aa9ee3271064be4828f5b898797264569f80257
+authentication: {}
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "employer_cnpj": 62054242000115,
+      "employer_business_name": "Stella e Alessandra Locações de Automóveis Ltda",
+      "payroll_bank_id": 1
+    }
+created: 1588187513657
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1588187513657
+method: POST
+modified: 1588187513657
+name: Creates a new Portability Request
+parameters: []
+parentId: wrk_5aa9ee3271064be4828f5b8987972645
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/v1/payroll/portability"
